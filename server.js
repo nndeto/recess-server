@@ -1,7 +1,12 @@
+// my server is my computer! that will serve files back to my front end
+
 const express = require('express');
 const rowdy = require('rowdy-logger');
 
-// later add in session, cors, and doenv
+// later add in session, cors, and dotenv
+
+// DB & Models //
+const db = require('./models/index.js');
 
 // Configuration //
 const port = process.env.PORT || 4000;
